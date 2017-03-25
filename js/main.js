@@ -3,5 +3,5 @@ var header = '<div class="ui menu"><a href="index.html" class="item">Home</a><!-
 
 $('document').ready(function() {
   console.log("Success");
-  $('body').append(header);
+  $('.navBar').html(header);
 });
